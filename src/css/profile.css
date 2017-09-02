@@ -1,0 +1,239 @@
+.container-p{
+	padding-right: 16px !important;
+	padding-left: 16px !important;
+	margin-top: 24px !important;
+	    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.p-container{
+box-sizing: border-box;
+}
+.container-p::before{
+	    display: table;
+   		content: "";
+}
+.container-p::after{
+	    display: table;
+	    clear: both;
+   		content: "";
+}
+.profile-nav{
+	position: static;
+	top: 0 !important;
+	left: 437.5px;
+	width: 727px;
+	background-color: #fff;
+    border-bottom: solid 1px #d1d5da;
+    box-sizing: border-box;
+}
+.profile-left{
+	width: 25%;
+	padding-right: 16px !important;
+	float: left;
+	box-sizing: border-box;
+}
+
+.profile-right{
+	padding-left: 8px !important;
+	width: 75%;
+	box-sizing: border-box;
+	float: left;
+}
+
+
+.profile-photo{
+	display: block !important;
+	position: relative !important;
+	color: #0366d6;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.profile-photo img{
+	    display: inline-block;
+	    overflow: hidden;
+	    line-height: 1;
+	    vertical-align: middle;
+	    border-radius: 3px;
+	    width: 100% !important;
+	    border-radius: 6px !important;
+	    border-style: none;
+}
+.profile-name{
+	position: static;
+	top: 0;
+	padding-top: 16px !important;
+    padding-bottom: 16px !important;
+
+}
+.profile-name h1{
+	font-size: 32px;
+	font-weight: 600;
+}
+.profile-details{
+	list-style: none;
+	padding-top:16px !important;
+	box-sizing: border-box;
+	padding-bottom: 16px !important;
+	    border-color: #eaecef !important;
+	         border-top: 1px #e1e4e8 solid !important; 
+}
+.vcard-details{
+	    display: inline-block;
+    max-width: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 22px !important;
+    font-size: 14px;
+    padding-top: 4px !important;
+    box-sizing: border-box;
+
+
+}
+.profile-full-name{
+	font-size: 26px;
+	line-height: 30px;
+	display: block !important;
+	box-sizing: border-box;
+}
+.profile-user-name{
+	    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #666;
+    display: block !important;
+}
+.profile-bio{
+	    margin-bottom: 12px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #6a737d;
+    box-sizing: border-box;
+}
+
+
+
+.pin-position{
+	position: relative !important;
+	box-sizing: border-box;
+}
+.pin-repos-order{
+	box-sizing: border-box;
+	margin-top: 24px !important;
+}
+.pin-header{
+	font-weight: normal !important;
+	font-size: 16px !important;
+	margin-bottom: 8px !important;
+	margin-top: 0 !important;
+	box-sizing: border-box;
+}
+
+.pin-repos-list{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    list-style: none;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 24px !important;
+    padding-left: 0 ;
+    margin-top: 0;
+    box-sizing:border-box;
+}
+
+
+.pin-repos-item{
+	 display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    width: 359px;
+    padding: 16px !important;
+    margin-bottom: 16px !important;
+    border-radius: 3px !important;
+    border-color: #d1d5da !important;
+    border: 1px #e1e4e8 solid !important;
+    box-sizing: border-box;
+
+}
+.pin-repos-content{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+.pin-repo-name{
+	display: block !important;
+	position: relative !important;
+	font-weight: 600 !important;
+	    color: #0366d6;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.pin-repo-name:hover{
+	text-decoration: underline;
+
+}
+.pin-repo-desc{
+	-webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+    display: block !important;
+    font-size: 12px !important;
+    margin-bottom: 16px !important;
+    margin-top: 8px;
+    color: #586069 !important;
+    box-sizing: border-box;
+    font-family: "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.pin-footer{
+	font-size: 12px !important;
+	margin-bottom: 0 !important;
+	color: #586069 !important;
+	margin-top: 0;
+	box-sizing: border-box;
+}
+.pin-language{
+	font-size: 14px;
+}
+
+.pin-stars{
+	margin-left: 16px;
+	cursor: pointer;
+	display: inline-block;
+	color: #586069 !important;
+	
+}
+.pin-stars:hover{
+	color: #0366d6;
+}
+
+
+
+
+
+
+
+
+

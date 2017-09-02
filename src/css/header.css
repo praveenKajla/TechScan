@@ -1,0 +1,45 @@
+body{
+	margin: 0px;
+}
+
+
+.header{
+	display: flex;
+	height: 3.125rem;
+	width: 100%;
+	background-color: #24292e;
+	border-bottom-color: #24292e;
+
+
+}
+
+.logo{
+	color: #f3f3f3;
+	font-family: Montserrat;
+	margin: 6px;
+
+}
+.linkk{
+	text-decoration: none;
+	outline: none;
+}
+#searchbar{
+	background-color: #24292e;
+	margin-left: 8px;
+}
+
+#searchbar input{
+	min-height: 30px;
+	width: 300px;
+	margin-top: 6px;
+	background-color: #404448;
+	font-size: 14px;
+	font-family: Raleway;
+	outline: none;
+	border-color: transparent;
+	border-radius: 3px;
+	
+	}
+#searchbar input:focus{
+	color: #f3f3f3;
+}
